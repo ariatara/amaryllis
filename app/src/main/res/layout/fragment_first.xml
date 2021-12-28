@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screenBackground"
+    android:gravity="center"
+    tools:context=".FirstFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="3dp"
+                android:background="@color/color_title" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent">
+
+                <ImageView
+                    android:id="@+id/image_view"
+                    android:layout_width="363dp"
+                    android:layout_height="384dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginBottom="21dp"
+                    android:src="@mipmap/amaryllis_launcher_foreground" />
+
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="3dp"
+                android:background="@color/color_title" />
+
+            <EditText
+                android:id="@+id/edit_text"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/screenBackground"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/hello_first_fragment"
+                android:textColor="@color/color_title"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

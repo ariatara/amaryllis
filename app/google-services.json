@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "121263763703",
+    "firebase_url": "https://readreceipt-b9b68.firebaseio.com",
+    "project_id": "readreceipt-b9b68",
+    "storage_bucket": "readreceipt-b9b68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121263763703:android:58af7abd054b61deb3a3f2",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121263763703-j70l9iaphoko6i9itpbo003hfctkf5gv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlgXbUbJrdOkGeLsv1zE1nRZlboXIoKxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121263763703-j70l9iaphoko6i9itpbo003hfctkf5gv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
